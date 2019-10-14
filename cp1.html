@@ -1,0 +1,241 @@
+<html>
+    <head>
+      <title>CPP</title>
+      <script>
+      function logout() {   
+                  
+                  alert("Successfully Logged out!!");
+            }
+      </script>
+    <style>
+ 
+.topnav {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: 15px;
+  overflow: hidden;
+  background-color: #333;
+}
+.topnav a {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: 10px;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 12px 15px;
+  text-decoration: none;
+  font-size: 15px;
+}
+.topnav a:hover {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  background-color: #ddd;
+  color: black;
+}
+.topnav a.active {
+  background-color:lightsalmon;
+  color:white;
+  font-weight: 600;
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+.dropdown .dropbtn {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 12px 15px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 10px;
+}
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: white;
+  color: black;
+}
+.dropdown-content {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {
+  background-color: orange;
+  color: white;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.q{
+    float: right;
+}
+body {
+    margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+background-color: #666;
+}
+
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+
+.row {margin: 0 -5px;}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+.column{
+    background-color: #333;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #666;
+}
+footer{
+    background-color: #333;
+    padding: 10px;
+margin: 15px;
+color: white;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+.man1{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+    background: #333;
+    color: white;
+    padding: 20px;
+    margin: 15px;
+}
+    </style>  
+    
+    </head>
+    <body>
+        
+<div class="topnav">
+        <div class="dropdown">
+          <button class="dropbtn">Course Offered 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+                  <a href="c1.html">C</a>
+                  <a class="active" href="cp1.html">C++</a>
+                  <a href="j1.html">Java</a>
+                  <a href="h.html">HTML</a>
+                  <a  href="cs1.html">CSS</a>
+          </div>
+        </div> 
+        <a href="contact.html">Contact Us</a>
+        <div class="q">
+              <a  href="index.html" onclick="logout()">Logout</a>
+      </div>
+      </div>
+<header>
+  <center><P style="font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;font-size:3em;color: white;margin-top: 20px;;background-color:orange;color:#666;margin:50px;margin-left:700px;margin-right:700px;padding:10px;"><strong>CPP</strong></P></center>
+</header>
+<form style="font-size: medium;">
+        <div class="container">
+        <hr><h1 align="center" style="font-family: Arial, Helvetica, sans-serif;font-size: 1.5em;color: white;background-color:white;color:#666;margin:50px;margin-left:650px;margin-right:650px;padding:10px;">History of C++</h1>
+        <hr>
+        <div class="man1">
+        <p align="center">The C++ programming language has a history going back to 1979, when Bjarne Stroustrup was doing work for his Ph.D. thesis. One of the languages Stroustrup had the opportunity to work with was a language called Simula, which as the name implies is a language primarily designed for simulations. The Simula 67 language - which was the variant that Stroustrup worked with - is regarded as the first language to support the object-oriented programming paradigm. Stroustrup found that this paradigm was very useful for software development, however the Simula language was far too slow for practical use.
+
+                Shortly thereafter, he began work on "C with Classes", which as the name implies was meant to be a superset of the C language. His goal was to add object-oriented programming into the C language, which was and still is a language well-respected for its portability without sacrificing speed or low-level functionality. His language included classes, basic inheritance, inlining, default function arguments, and strong type checking in addition to all the features of the C language.
+                
+                The first C with Classes compiler was called Cfront, which was derived from a C compiler called CPre. It was a program designed to translate C with Classes code to ordinary C. A rather interesting point worth noting is that Cfront was written mostly in C with Classes, making it a self-hosting compiler (a compiler that can compile itself). Cfront would later be abandoned in 1993 after it became difficult to integrate new features into it, namely C++ exceptions. Nonetheless, Cfront made a huge impact on the implementations of future compilers and on the Unix operating system.
+                
+                In 1983, the name of the language was changed from C with Classes to C++. The ++ operator in the C language is an operator for incrementing a variable, which gives some insight into how Stroustrup regarded the language. Many new features were added around this time, the most notable of which are virtual functions, function overloading, references with the & symbol, the const keyword, and single-line comments using two forward slashes (which is a feature taken from the language BCPL).
+                
+                In 1985, Stroustrup's reference to the language entitled The C++ Programming Language was published. That same year, C++ was implemented as a commercial product. The language was not officially standardized yet, making the book a very important reference. The language was updated again in 1989 to include protected and static members, as well as inheritance from several classes.
+                
+                In 1990, The Annotated C++ Reference Manual was released. The same year, Borland's Turbo C++ compiler would be released as a commercial product. Turbo C++ added a plethora of additional libraries which would have a considerable impact on C++'s development. Although Turbo C++'s last stable release was in 2006, the compiler is still widely used.
+                
+                In 1998, the C++ standards committee published the first international standard for C++ ISO/IEC 14882:1998, which would be informally known as C++98. The Annotated C++ Reference Manual was said to be a large influence in the development of the standard. The Standard Template Library, which began its conceptual development in 1979, was also included. In 2003, the committee responded to multiple problems that were reported with their 1998 standard, and revised it accordingly. The changed language was dubbed C++03.
+                
+                In 2005, the C++ standards committee released a technical report (dubbed TR1) detailing various features they were planning to add to the latest C++ standard. The new standard was informally dubbed C++0x as it was expected to be released sometime before the end of the first decade. Ironically, however, the new standard would not be released until mid-2011. Several technical reports were released up until then, and some compilers began adding experimental support for the new features.
+                
+                In mid-2011, the new C++ standard (dubbed C++11) was finished. The Boost library project made a considerable impact on the new standard, and some of the new modules were derived directly from the corresponding Boost libraries. Some of the new features included regular expression support (details on regular expressions may be found here), a comprehensive randomization library, a new C++ time library, atomics support, a standard threading library (which up until 2011 both C and C++ were lacking), a new for loop syntax providing functionality similar to foreach loops in certain other languages, the auto keyword, new container classes, better support for unions and array-initialization lists, and variadic templates.</p> 
+            </div>
+                <h2 align="center"style="font-family: Arial, Helvetica, sans-serif;font-size: 1.5em;background-color:white;color:#666;margin:50px;margin-left:650px;margin-right:650px;padding:10px;">About the course</h2>
+          <hr>
+          <p align="center">This is a 30 day course in which you will learn the basics of CPP</p>
+          <div class="wrapper">
+                   <center><video width="560" height="315" src="https://www.youtube.com/watch?v=uWYPVz_i7W4&vl=en" frameborder="0" controls></video></center>           
+            </div><!--/.wrapper-->
+            <hr>
+            <center><h4 style="font-family: Arial, Helvetica, sans-serif;font-size: 1.5em;background-color:white;color:#666;margin:50px;margin-left:650px;margin-right:650px;padding:10px;">Modules</h4></center><hr>
+                   <div align="center" class="man1"> <div class="row">
+                      <div style="float: left;margin-left: 350px;" class="column">
+                        <div class="card">
+                          <h3>Introduction</h3>
+                          <p style="color: white;"> C++, as we all know is an extension to C language and was developed by Bjarne stroustrup at bell labs. C++ is an intermediate level language, as it comprises a confirmation of both high level and low level language features. C++ is a statically typed, free form, multiparadigm, compiled general-purpose language.
+
+                                C++ is an Object Oriented Programming language but is not purely Object Oriented. Its features like Friend and Virtual, violate some of the very important OOPS features, rendering this language unworthy of being called completely Object Oriented. Its a middle level language.</p>
+                          <button type="submit" name="ReadMore" value="readmore"><a href="cpp1.html" >Read More</a></button>
+                        </div>
+                      </div>
+                    
+                      <div style="float: right;margin-right: 350px;" class="column">
+                        <div class="card">
+                          <h3>Chapter 1</h3>
+                          <p style="color: white;">The prime purpose of C++ programming was to add object orientation to the C programming language, which is in itself one of the most powerful programming languages.
+
+                                The core of the pure object-oriented programming is to create an object, in code, that has certain properties and methods. While designing C++ modules, we try to see whole world in the form of objects. For example a car is an object which has certain properties such as color, number of doors, and the like. It also has certain methods such as accelerate, brake, and so on.
+                                
+                                There are a few principle concepts that form the foundation of object-oriented programming −
+                                </p>
+                                <button type="submit" name="ReadMore" value="readmore"><a href="cp2.html" >Read More</a></button>
+                        </div>
+                      </div>  </div></div>
+                      <footer>
+                            <center> <p>Contact us +91 896571236 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Copyright &copy; 2019  </p></center>
+                         </footer>
+                    </body>
+                    </html>
+                  

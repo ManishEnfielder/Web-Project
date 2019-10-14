@@ -1,0 +1,129 @@
+<html>
+    <head>
+      <title> GYAANBYTES</title>
+      <script>
+function submitClick() 
+{
+    if(document.myClass.firstname.value != "" && document.myClass.lastname.value != "" && document.myClass.email.value != "" && document.myClass.mob.value != "" && document.myClass.password.value != "" && document.myClass.bday.value != "" && document.myClass.Gender.value != "")
+    {
+        alert("Signup Succesful");
+    }
+}
+      </script>
+      <style>
+      body
+      {
+        background: #f1f1f1;
+        font-family:Arial, Helvetica, sans-serif;
+        margin: 0;
+      }
+      header
+      {
+        background: #333;;
+        color: white;
+        padding: 25px;
+      }
+     span
+     {
+        font-size: 2.75em;
+        font-weight: bold;
+         font-family: cursive
+    }
+          .sad{
+              margin-left: 33%;
+          }
+          .formborder{
+              margin: 10px;
+              padding: 10px;
+              border: 0.5px solid #ccc;
+              box-sizing: border-box;
+              
+          }
+          h1{
+              margin: 8px;
+              margin-bottom: 15px;
+          }
+          b{
+              padding: 5px 5px;;
+          }
+     form
+     {
+        float:left;
+        letter-spacing: 1px;
+        font-size: 17px;
+         line-height: inherit;
+     } 
+    
+     input[type=text],input[type=password],input[type=submit],input[type=email],input[type=tel]
+     {
+        padding: 8px;
+        font-size: 15px;
+        font-family: 'Times New Roman', Times, serif;
+        margin-top: 8px;
+         margin-bottom: 8px;
+         margin-right: 3px;
+     }
+input[type=submit]
+{
+    background:blue;
+    color: white;
+    padding: 8px 32px;
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 35%;
+}
+.alert {
+  text-align: center;
+  padding: 10px;
+  background: rgb(168, 240, 177);
+  color: green;
+  margin-bottom: 10px;
+  display: none;
+}
+      </style>
+    </head>
+    <body>
+<header>
+  <center><span>GYAANBYTES</span></center>
+</header>
+<div class="sad">
+<form action="index.html" name="myClass" class="formborder" id="registrationform" method="POST">
+        <div class="alert">Message Sent</div>
+    <div class="container">
+      <h1 align="center">Create an account
+        </h1>
+      <div class="logindetails">
+          <label for="uname"><b>Username</b></label><br>
+    <input type="text" placeholder="First name" size ="19" maxlength="10" style="float:left" id="firstname" name="firstname" required>
+      <input type="text" placeholder="Last name" size ="21" maxlength="11" style="float: left" id="lastname" name="lastname" required>
+<br><br>
+    <label for="email"><b>Email</b></label><br>
+  <input type="email" placeholder="Email address" size="47" maxlength="30" style="float: left" name="email" id="email" required>
+      <br><br>
+
+      <label for="email"><b>Mobile Number</b></label><br>
+      <input type="tel" placeholder="Mobile number" size="47" maxlength="30" style="float: left" name="mob" id="mob" required><br>
+      <label for="email"><b>Password</b></label><br>
+      <input type="password" placeholder="New password" size="47" style="float: left" name="password" id="password" required><br>
+        </div>       
+      <div>   
+    <br/>
+   <p align="left"><b>Birthday : </b><input type="date" name="bday" required></p>
+    <p align="left"><b>Gender</b></p>
+    <div align="left">
+      <input style="float:left"type="radio" id="male" name="Gender" value="Male" required>
+      <label style="float:left"for="Male">Male</label>
+      <input style="float:left"type="radio" id="male" name="Gender" value="Female"required>
+      <label style="float:left"for="Female">Female</label>  
+      <input style="float:left"type="radio" id="male" name="Gender" value="Others"required>
+      <label style="float:left"for="Others">Others</label>
+    </div>
+    <br>
+  <input type="submit" name="Sign Up" value="Sign up" onclick="submitClick()"><br>
+</div>
+</div>
+</form>
+</div>
+</body>
+</html>
